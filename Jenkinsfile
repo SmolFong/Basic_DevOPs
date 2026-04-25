@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         DOCKER_HUB_USER = "thanhphong2612" 
-        IMAGE_NAME = "DevOps"
+        IMAGE_NAME = "devops"
         DOCKER_HUB_CREDS = 'docker-hub-credentials'
     }
     stages {
