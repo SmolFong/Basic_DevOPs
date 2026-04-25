@@ -1,8 +1,8 @@
 pipeline {
     agent any
     environment {
-        DOCKER_HUB_USER = "your_docker_username" 
-        IMAGE_NAME = "my-awesome-app"
+        DOCKER_HUB_USER = "thanhphong2612" 
+        IMAGE_NAME = "DevOps"
         DOCKER_HUB_CREDS = 'docker-hub-credentials'
     }
     stages {
